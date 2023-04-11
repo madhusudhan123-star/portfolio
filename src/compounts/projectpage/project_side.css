@@ -164,4 +164,28 @@
         height: 100vh;
         padding-top: 60%;
     }
+    .project3_img_div {
+        width: 100%;
+        height: 70vh;
+        margin-left: 0;
+        background-position: center;
+        background-size: cover;
+        cursor: default;
+    }
+    .project2_img_div {
+        width: 100%;
+        height: 70vh;
+        margin-left: 0;
+        background-position: center;
+        background-size: cover;
+        cursor: default;
+    }
+    .project1_img_div {
+        width: 100%;
+        height: 70vh;
+        margin-left: 0;
+        background-position: center;
+        background-size: cover;
+        cursor: default;
+    }
 }

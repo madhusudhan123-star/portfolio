@@ -3,20 +3,20 @@ import "./contact.css";
 const Contact = () => {
   return(
     <div className="main_div">
-      <form  action="https://formspree.io/f/xyyabjvd" method="POST" className="contact_main_div">
+      <form form action="https://formsubmit.co/daggulamadhu63@gmail.com" method="POST" className="contact_main_div">
         <div id="contact_main_div" className="contact_div">
         <div className="name_div">
-          <input type="text" placeholder="Name" className="name" name='name' />
+          <input type="text" placeholder="Name" className="name" />
           <div className="namediv">
           </div>
         </div>
         <div className="email_div">
-          <input type="email" placeholder="Email" className="email" name='email' required/>
+          <input type="email" placeholder="Email" className="email" />
           <div className="emaildiv">
           </div>
         </div>
         <div className="message_div">
-          <input type="text" placeholder="Message" className="message" name='message' />
+          <input type="text" placeholder="Message" className="message" />
           <div className="messagediv">
           </div>
         </div>
