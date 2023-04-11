@@ -17,9 +17,6 @@ const Front_side = () => {
           <div className="background_color"></div>
           <div className="container d-flex justify-content-between  p-0 mx-auto ">
             <img src={logo} className="logo_imag navbar-brand rounded-circle" />
-            <button className="navbar-toggler">
-              <span  className="navbar-toggler-icon"><img className="burger_img" onClick={toggle} src ={burger}/></span>
-            </button>
             <div className="navbar_first_div">
               <div
                 className=" navbar-collapse justify-center"
@@ -72,31 +69,6 @@ const Front_side = () => {
           </div>
         </div>
       </div>
-      <div className={"toggle_div_main" + (tags ? " toggle_button":"")}>
-              <div
-                className=" navbar-collapse justify-center toggle_div"
-                id="navbarNavAltMarkup"
-              >
-                <div className='navbar-nav toggle_list'>
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
-                  <a className="nav-link " href="#">
-                    Skills
-                  </a>
-                  <a className="nav-link" href="#">
-                    Projects
-                  </a>
-                  <a className="nav-link ">contact</a>
-                  <a className="nav-link_social">
-                  <div className="socila_links_div">
-                    <AiOutlineGithub />
-                    <SiWebflow />
-                  </div>
-                  </a>
-                </div>
-              </div>
-            </div>
     </div>
   );
 };
