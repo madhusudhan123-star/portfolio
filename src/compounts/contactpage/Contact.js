@@ -3,7 +3,7 @@ import "./contact.css";
 const Contact = () => {
   return(
     <div className="main_div">
-      <form form action="https://formsubmit.co/daggulamadhu63@gmail.com" method="POST" className="contact_main_div">
+      <form form action="https://formsubmit.co/el/bilozu" method="POST" className="contact_main_div">
         <div id="contact_main_div" className="contact_div">
         <div className="name_div">
           <input type="text" placeholder="Name" className="name" />
