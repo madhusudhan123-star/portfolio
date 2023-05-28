@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
         <button type="submit" className="submit_button">Submit</button>
         <div className="myemail_div">
-          <p className="myemail">daggulamadhu63@gamil.com</p>
+          <p className="myemail">daggulamadhu63@gmail.com</p>
           <div className="color_full_line"></div>
         </div>
         </div>
